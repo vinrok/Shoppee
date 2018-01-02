@@ -1,0 +1,46 @@
+/* External
+    Style stylesheet
+    */
+
+    #banner_img {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background: url(../img/intro-bg_1.jpg) center;
+  }
+
+  #banner_content {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+  }
+
+  /* ******************************* login ************************ */
+  .font_style {
+    text-align: center;
+    color: rgb(153, 140, 240);
+    font-size: 1.15em;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    margin-top: 1%;
+    margin-bottom: 0.8%;
+  }
+
+  #login {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    }
+
+  /* ****************************** sign up *************************** */
+  #signup {
+    margin-bottom: 12.5%;
+    padding-top: 7%;
+  }
+
+/* ********************************* settings ************************* */
+  #setting {
+    padding-top: 10%;
+    margin-bottom: 12.5%;
+  }
