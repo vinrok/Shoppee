@@ -1,46 +1,43 @@
 /* External
     Style stylesheet
     */
+    body {
+      margin: 0;
+        width: 100%;
+    }
 
     #banner_img {
-    padding-top: 100px;
-    padding-bottom: 120px;
-    background: url(../img/intro-bg_1.jpg) center;
+      padding-top: 85px;
+      padding-bottom: 85%;
+      background: url(../img/intro-bg_1.jpg) no-repeat center fixed;
+      background-size: cover;
   }
 
   #banner_content {
-    padding-top: 6%;
-    padding-bottom: 6%;
-    margin-top: 12%;
-    margin-bottom: 12%;
+    padding-top: 8%;
+    padding-bottom: 9%;
+    margin-top: 59px;
     background-color: rgba(0, 0, 0, 0.7);
-    max-width: 660px;
+    color: #afd9ee;
+    max-width: 560px;
   }
 
   /* ******************************* login ************************ */
   .font_style {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     color: rgb(153, 140, 240);
-    font-size: 1.15em;
-    padding-top: 8px;
-    padding-bottom: 5px;
-    margin-top: 1%;
-    margin-bottom: 0.8%;
+    font-size: 0.89em;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    margin: 0%;
+      width: 100%;
   }
 
-  #login {
-    padding-top: 10%;
-    padding-bottom: 5%;
+  .font > p:hover {
+      color: salmon;
+  }
+      /* ************** signup/login/Cart/success/setting ********* */
+    #pad-top {
+        padding-top: 1.5%;
     }
-
-  /* ****************************** sign up *************************** */
-  #signup {
-    margin-bottom: 12.5%;
-    padding-top: 7%;
-  }
-
-/* ********************************* settings ************************* */
-  #setting {
-    padding-top: 10%;
-    margin-bottom: 12.5%;
-  }
